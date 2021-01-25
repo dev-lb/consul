@@ -1,13 +1,13 @@
-package java.jg.consul.sprovider;
+package com.jg.consul.sprovider;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ServiceConsumerApplication {
+public class ServiceProviderApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ServiceConsumerApplication.class, args);
+        SpringApplication.run(ServiceProviderApplication.class, args);
     }
 
 }

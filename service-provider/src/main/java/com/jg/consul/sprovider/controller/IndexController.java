@@ -1,4 +1,4 @@
-package java.jg.consul.sprovider.controller;
+package com.jg.consul.sprovider.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
